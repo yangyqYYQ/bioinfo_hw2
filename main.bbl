@@ -15,12 +15,4 @@
 \bibinfo{howpublished}{\url{https://www.jianshu.com/p/db8b915a27e9}}.
 \newblock \bibinfo{note}{Accessed May 7, 2018}.
 
-\bibitem{Hao:gidmaps:2014}
-\bibinfo{author}{Hao, Z.}, \bibinfo{author}{AghaKouchak, A.},
-  \bibinfo{author}{Nakhjiri, N.} \& \bibinfo{author}{Farahmand, A.}
-\newblock \bibinfo{title}{Global integrated drought monitoring and prediction
-  system ({GIDMaPS}) data sets}.
-\newblock \bibinfo{howpublished}{\emph{figshare}
-  \url{http://dx.doi.org/10.6084/m9.figshare.853801}} (\bibinfo{year}{2014}).
-
 \end{thebibliography}

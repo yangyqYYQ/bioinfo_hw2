@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: naturemag-doi.bst
 Database file #1: sample.bib
-You've used 3 entries,
+You've used 2 entries,
             2380 wiz_defined-function locations,
-            1001 strings with 9331 characters,
-and the built_in function-call counts, 729 in all, are:
-= -- 38
-> -- 18
+            995 strings with 9088 characters,
+and the built_in function-call counts, 396 in all, are:
+= -- 20
+> -- 2
 < -- 0
-+ -- 10
-- -- 4
-* -- 61
-:= -- 60
-add.period$ -- 7
-call.type$ -- 3
-change.case$ -- 3
++ -- 2
+- -- 0
+* -- 22
+:= -- 27
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 70
-empty$ -- 86
-format.name$ -- 5
-if$ -- 152
+cite$ -- 2
+duplicate$ -- 42
+empty$ -- 55
+format.name$ -- 0
+if$ -- 85
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 15
-newline$ -- 23
-num.names$ -- 1
-pop$ -- 38
+int.to.str$ -- 2
+missing$ -- 8
+newline$ -- 18
+num.names$ -- 0
+pop$ -- 26
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 28
+skip$ -- 20
 stack$ -- 0
 substring$ -- 4
-swap$ -- 58
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 4
-write$ -- 33
+while$ -- 0
+width$ -- 3
+write$ -- 23
