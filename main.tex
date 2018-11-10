@@ -2,50 +2,76 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-\title{Homework 2}
+\title{Homework two report}
 
 \author[1,*]{Y.Q. Yang}
-%\keywords{Keyword1, Keyword2, Keyword3}
 
-\begin{abstract}
-Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations. Example Abstract. Abstract must not include subheadings or citations.
+
+\begin{abstract}    
+According to the result obtained from the following analysis, transcription activator B plays a more important role in cancer.
+
 \end{abstract}
 \begin{document}
 
 \flushbottom
 \maketitle
-% * <john.hammersley@gmail.com> 2015-02-09T12:07:31.197Z:
-%
-%  Click the title above to edit the author information and abstract
-%
+
 \thispagestyle{empty}
-
-\noindent Please note: Abbreviations should be introduced at the first mention in the main text – no abbreviations lists. Suggested structure of main text (not enforced) is provided below.
-
-\section*{Introduction}
-
-The Introduction section, of referenced text\cite{csdn.net} expands on the background of the work (some overlap with the Abstract is acceptable). The introduction should not include subheadings.
 
 \section*{Results}
 
-\subsection*{Quantification of Microarray}
+\subsection*{Quality Control}
 
-To check if there exists any microarry chips that perform abnormally, I first briefly visualized the distribution of expression level for each chip in $log_2$-scale, boxplot and hist(density estimate).  It is revealed that the total expression level among these chips are approximately the same.
+To check if there exists any microarry chips that perform abnormally, I first briefly visualized the distribution of expression level for each chip in Relative Log Expression Level(REL) with the package \textit{Oligo}. \cite{csdn.net} It is revealed that the total expression level among these chips are approximately the same.  Consequently, I can make sure that all microarry data are reliable and can be applied to subsequent analysis.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\linewidth]{stream}
-    \caption{Legend (350 words max). Example legend text.}
+    \includegraphics[width=15cm,height=10cm]{RLE.png}
+    \caption{Relative Log Expression Level(REL) for each chip}
     \label{fig:stream}
     \end{figure}
 
+\subsubsection*{Differential Expression Gene Analysis}
+
+Rawdata retrieved from chips are read in with the package \textit{Affy}, and are pretreated using \textit{rma} algorithm, which are proved to have a better performance in enhancing the signal from Perfect Match(PM) probes \cite{jianshu.com}. 
+
+By respectively comparing the data retrieved from transcription-activator-A-knocked out(abbreviated as sample A below) and transcription-activator-B-knocked out(abbreviated as sample B below) samples with data from control samples, a Differential Expression Gene Analysis has been performed. Result shows that more genes are differentially expressed in samples treated with siRNA B, The threshold of differntial expression is determined by $abs(logFC) > 1.5$ and $adj.P.value < 0.05$ so as to remove as much false positive results as possible.  The result are drawn as volcanoplots listed below.
+After figuring out the number of significantly expressed genes respectively in sample A and B, I found that sample B contains dramitically higher number of differential expressed genes.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    group & sample A & sample B \\
+    \hline
+    number & 7 & 264 \\
+    \hline
+    \end{tabular}
+    \caption{\label{tab:example}number of significantly expressed genes }
+    \end{table}
+
+\begin{figure}[h]
+    \begin{minipage}[t]{0.45\linewidth}
+    \centering
+    \includegraphics[width=7cm,height=6.5cm]{sA.png}
+    \caption{volcanoplot of sample A}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\linewidth}        %图片占用一行宽度的45%
+    \hspace{2mm}
+    \includegraphics[width=7cm,height=6.5cm]{sB.png}
+    \caption{volcanoplot of sample B}
+    \end{minipage}
+\end{figure}
+
+\subsection*{Probable Impact of Transcription Activator B on Cancer}
+The transcription activator B plays a role in cancer probably from 
 
 \begin{itemize}
 \item First item
 \item Second item
 \end{itemize}
 
-\subsubsection*{Third-level section}
+
  
 Topical subheadings are allowed.
 
@@ -80,19 +106,7 @@ The corresponding author is responsible for submitting a \href{http://www.nature
 
 
 
-\begin{table}[ht]
-\centering
-\begin{tabular}{|l|l|l|}
-\hline
-Condition & n & p \\
-\hline
-A & 5 & 0.1 \\
-\hline
-B & 10 & 0.01 \\
-\hline
-\end{tabular}
-\caption{\label{tab:example}Legend (350 words max). Example legend text.}
-\end{table}
+
 
 Figures and tables can be referenced in LaTeX using the ref command, e.g. Figure \ref{fig:stream} and Table \ref{tab:example}.
 
