@@ -226,7 +226,6 @@ INPUT RLE.png
 INPUT ./RLE.png
 INPUT ./RLE.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm
 INPUT sA.png
 INPUT ./sA.png
 INPUT ./sA.png
@@ -249,12 +248,11 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm
 INPUT goplot10.png
 INPUT ./goplot10.png
 INPUT ./goplot10.png
@@ -263,6 +261,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf

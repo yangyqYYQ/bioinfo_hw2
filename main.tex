@@ -31,7 +31,7 @@ To check if there exists any microarry chips that perform abnormally, I first br
     \label{fig:stream}
     \end{figure}
 
-\subsubsection*{Differential Expression Gene Analysis}
+\subsection*{Differential Expression Gene Analysis}
 
 Rawdata retrieved from chips are read in with the package \textit{affy}, and are pretreated using \textit{rma} algorithm, which are proved to have a better performance in enhancing the signal from Perfect Match(PM) probes \cite{jianshu.com}. 
 
@@ -66,7 +66,7 @@ After figuring out the number of significantly expressed genes respectively in s
 \subsection*{Probable Impact of Transcription Activator B on Cancer}
 After clustering the differential expressed genes obtained in the previous step by Genetic Oncology(GO) Analysis and Kegg Analysis, I found that the transcription activator B plays a role in cancer probably through interfering DNA replication, chromosome segregation, nuclear division, DNA conformation change and DNA packaging.
 
-\subsubsection{Genetic Oncology(GO) Analysis}
+\subsubsection*{Genetic Oncology(GO) Analysis}
 First I undergo Genetic Oncology(GO) Analysis on the differential expressed genes in sample B with package \textit{clusterProfiler}\cite{yu2012clusterprofiler}, which clustered those genes by their genetic function.  I figure out top ten clusters ranging by size and generated the enrich plot below.
 
 \begin{figure}[ht]
@@ -77,7 +77,7 @@ First I undergo Genetic Oncology(GO) Analysis on the differential expressed gene
     \end{figure}
 
 
-\subsubsection{Kegg Analysis}
+\subsubsection*{Kegg Analysis}
 I applied Kegg Analysis on the differential expressed genes result in sample B with package \textit{clusterProfiler}\cite{yu2012clusterprofiler}, which reveals that 
 
 \subsubsection{GSEA Analysis}

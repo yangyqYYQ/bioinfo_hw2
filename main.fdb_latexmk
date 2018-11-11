@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1541901434 "main.aux" "main.bbl" "main" 1541903431
+["bibtex main"] 1541905194 "main.aux" "main.bbl" "main" 1541905385
   "./naturemag-doi.bst" 1541507574 36153 a59af0557a0f0c0e857533e984f737bb ""
-  "main.aux" 1541903431 2686 0e4477c44df9cd443396296a16529754 ""
+  "main.aux" 1541905385 2719 0b28973c829bd1c66476386d7bede1dd ""
   "sample.bib" 1541899527 1323 849437edda76a7b8976c11b704839c28 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1541903412 "/Users/super_yyq/bioinfo_hw2/main.tex" "main.pdf" "main" 1541903431
-  "/Users/super_yyq/bioinfo_hw2/main.tex" 1541903412 3981 63c4d39323a2e14912c3c041a3f77202 ""
+  "main.blg"
+["pdflatex"] 1541905369 "/Users/super_yyq/bioinfo_hw2/main.tex" "main.pdf" "main" 1541905385
+  "/Users/super_yyq/bioinfo_hw2/main.tex" 1541905368 4144 e96e3a4247bb5a08990a44bac1562ddb ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -142,15 +142,15 @@
   "jabbrv-ltwa-all.ldf" 1541507574 49107 ef89484545be005458b7162f37634c99 ""
   "jabbrv-ltwa-en.ldf" 1541507574 268657 c239d07b7cc89e14f920c5fc8ed8d12e ""
   "jabbrv.sty" 1541507574 15480 2106da179daf9d5a102407956ba23e0c ""
-  "main.aux" 1541903431 2686 0e4477c44df9cd443396296a16529754 ""
-  "main.bbl" 1541901434 1097 ddf73724f7c9b2e3ae9036dcb23ed309 "bibtex main"
-  "main.out" 1541903431 247 dd11b9aceb6096091ddc837fa021122a ""
-  "main.tex" 1541903412 3981 63c4d39323a2e14912c3c041a3f77202 ""
+  "main.aux" 1541905385 2719 0b28973c829bd1c66476386d7bede1dd ""
+  "main.bbl" 1541905195 1097 ddf73724f7c9b2e3ae9036dcb23ed309 "bibtex main"
+  "main.out" 1541905385 247 dd11b9aceb6096091ddc837fa021122a ""
+  "main.tex" 1541905368 4144 e96e3a4247bb5a08990a44bac1562ddb ""
   "sA.png" 1541855596 41451 a66c10208ac5ef425f724b9dba9db6ed ""
   "sB.png" 1541855609 44440 f95b03360d28a9863908dc572709f1ff ""
   "wlscirep.cls" 1541507574 5788 9df2749839c3a8af12c7b5623dab1715 ""
   (generated)
-  "main.aux"
-  "main.out"
   "main.pdf"
   "main.log"
+  "main.out"
+  "main.aux"
