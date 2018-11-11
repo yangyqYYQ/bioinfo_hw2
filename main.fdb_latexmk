@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1541857741 "main.aux" "main.bbl" "main" 1541857746
+["bibtex main"] 1541901434 "main.aux" "main.bbl" "main" 1541903431
   "./naturemag-doi.bst" 1541507574 36153 a59af0557a0f0c0e857533e984f737bb ""
-  "main.aux" 1541857746 2305 dc0ad738244598897dca53364271ba14 ""
-  "sample.bib" 1541853753 906 48c3c9e7b86867a88e37c9a0b06a0581 ""
+  "main.aux" 1541903431 2686 0e4477c44df9cd443396296a16529754 ""
+  "sample.bib" 1541899527 1323 849437edda76a7b8976c11b704839c28 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1541857745 "/Users/super_yyq/bioinfo_hw2/main.tex" "main.pdf" "main" 1541857746
-  "/Users/super_yyq/bioinfo_hw2/main.tex" 1541857744 3365 733fa484c2878980a17e74e192929073 ""
+["pdflatex"] 1541903412 "/Users/super_yyq/bioinfo_hw2/main.tex" "main.pdf" "main" 1541903431
+  "/Users/super_yyq/bioinfo_hw2/main.tex" 1541903412 3981 63c4d39323a2e14912c3c041a3f77202 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -138,13 +138,14 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1516342318 4129592 182b75c844296fe47c4d514c17dd7144 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "RLE.png" 1541852709 16806 3b5b354d336e333d65b70e3b91b615c2 ""
+  "goplot10.png" 1541901410 7487394 07efc869f94a484c72644e55adde8d11 ""
   "jabbrv-ltwa-all.ldf" 1541507574 49107 ef89484545be005458b7162f37634c99 ""
   "jabbrv-ltwa-en.ldf" 1541507574 268657 c239d07b7cc89e14f920c5fc8ed8d12e ""
   "jabbrv.sty" 1541507574 15480 2106da179daf9d5a102407956ba23e0c ""
-  "main.aux" 1541857746 2305 dc0ad738244598897dca53364271ba14 ""
-  "main.bbl" 1541857741 658 8fb0a2d3ea47c7b36a311da9962aa76c "bibtex main"
-  "main.out" 1541857746 247 dd11b9aceb6096091ddc837fa021122a ""
-  "main.tex" 1541857744 3365 733fa484c2878980a17e74e192929073 ""
+  "main.aux" 1541903431 2686 0e4477c44df9cd443396296a16529754 ""
+  "main.bbl" 1541901434 1097 ddf73724f7c9b2e3ae9036dcb23ed309 "bibtex main"
+  "main.out" 1541903431 247 dd11b9aceb6096091ddc837fa021122a ""
+  "main.tex" 1541903412 3981 63c4d39323a2e14912c3c041a3f77202 ""
   "sA.png" 1541855596 41451 a66c10208ac5ef425f724b9dba9db6ed ""
   "sB.png" 1541855609 44440 f95b03360d28a9863908dc572709f1ff ""
   "wlscirep.cls" 1541507574 5788 9df2749839c3a8af12c7b5623dab1715 ""

@@ -15,4 +15,13 @@
 \bibinfo{howpublished}{\url{https://www.jianshu.com/p/db8b915a27e9}}.
 \newblock \bibinfo{note}{Accessed May 7, 2018}.
 
+\bibitem{yu2012clusterprofiler}
+\bibinfo{author}{Yu, G.}, \bibinfo{author}{Wang, L.-G.}, \bibinfo{author}{Han,
+  Y.} \& \bibinfo{author}{He, Q.-Y.}
+\newblock \bibinfo{journal}{\bibinfo{title}{clusterprofiler: an r package for
+  comparing biological themes among gene clusters}}.
+\newblock {\emph{\JournalTitle{Omics: a journal of integrative biology}}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{284--287}
+  (\bibinfo{year}{2012}).
+
 \end{thebibliography}

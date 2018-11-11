@@ -33,7 +33,7 @@ To check if there exists any microarry chips that perform abnormally, I first br
 
 \subsubsection*{Differential Expression Gene Analysis}
 
-Rawdata retrieved from chips are read in with the package \textit{Affy}, and are pretreated using \textit{rma} algorithm, which are proved to have a better performance in enhancing the signal from Perfect Match(PM) probes \cite{jianshu.com}. 
+Rawdata retrieved from chips are read in with the package \textit{affy}, and are pretreated using \textit{rma} algorithm, which are proved to have a better performance in enhancing the signal from Perfect Match(PM) probes \cite{jianshu.com}. 
 
 By respectively comparing the data retrieved from transcription-activator-A-knocked out(abbreviated as sample A below) and transcription-activator-B-knocked out(abbreviated as sample B below) samples with data from control samples, a Differential Expression Gene Analysis has been performed. Result shows that more genes are differentially expressed in samples treated with siRNA B, The threshold of differntial expression is determined by $abs(logFC) > 1.5$ and $adj.P.value < 0.05$ so as to remove as much false positive results as possible.  The result are drawn as volcanoplots listed below.
 After figuring out the number of significantly expressed genes respectively in sample A and B, I found that sample B contains dramitically higher number of differential expressed genes.
@@ -64,11 +64,21 @@ After figuring out the number of significantly expressed genes respectively in s
 \end{figure}
 
 \subsection*{Probable Impact of Transcription Activator B on Cancer}
-After clustering the differential expressed genes obtained in the previous step by Genetic Oncology(GO) Analysis and Kegg Analysis, I found that the transcription activator B plays a role in cancer probably through interfering cell cycle 
+After clustering the differential expressed genes obtained in the previous step by Genetic Oncology(GO) Analysis and Kegg Analysis, I found that the transcription activator B plays a role in cancer probably through interfering DNA replication, chromosome segregation, nuclear division, DNA conformation change and DNA packaging.
 
 \subsubsection{Genetic Oncology(GO) Analysis}
+First I undergo Genetic Oncology(GO) Analysis on the differential expressed genes in sample B with package \textit{clusterProfiler}\cite{yu2012clusterprofiler}, which clustered those genes by their genetic function.  I figure out top ten clusters ranging by size and generated the enrich plot below.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=15cm,height=15cm]{goplot10.png}
+    \caption{GO enrichplot of differential expressed genes in sample B, showCategory = 10}
+    \label{fig:stream}
+    \end{figure}
+
 
 \subsubsection{Kegg Analysis}
+I applied Kegg Analysis on the differential expressed genes result in sample B with package \textit{clusterProfiler}\cite{yu2012clusterprofiler}, which reveals that 
 
 \subsubsection{GSEA Analysis}
 

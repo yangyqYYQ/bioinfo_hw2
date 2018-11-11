@@ -255,6 +255,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT goplot10.png
+INPUT ./goplot10.png
+INPUT ./goplot10.png
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT main.bbl
@@ -264,16 +267,3 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT main.aux
-INPUT ./main.out
-INPUT ./main.out
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
